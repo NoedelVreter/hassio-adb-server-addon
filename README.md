@@ -1,7 +1,7 @@
 
 # Installation
 
-In the Hass.io > Add-on Store tab, add this repository's URL: [https://github.com/jaaps/hassio-adb-server-addon](https://github.com/jaaps/hassio-adb-server-addon)
+In the Hass.io > Add-on Store tab, add this repository's URL: [https://github.com/NoedelVreter/hassio-adb-server-addon](https://github.com/NoedelVreter/hassio-adb-server-addon)
 
 
 # Usage

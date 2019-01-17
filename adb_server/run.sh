@@ -2,8 +2,6 @@
 
 DEVICES=$(jq --raw-output '.devices[]' /data/options.json)
 
-mkdir -p /root/.android
-
 if [ -f /data/adbkey ]; then
   cp /data/adbkey /root/.android && cp /data/adbkey.pub /root/.android
 fi
