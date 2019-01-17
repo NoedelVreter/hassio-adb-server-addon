@@ -1,11 +1,7 @@
-# Current Status
-
-It might be working...  Please test it and report back!
-
 
 # Installation
 
-In the Hass.io > Add-on Store tab, add this repository's URL: [https://github.com/JeffLIrion/hassio-adb-server-addon](https://github.com/JeffLIrion/hassio-adb-server-addon)
+In the Hass.io > Add-on Store tab, add this repository's URL: [https://github.com/jaaps/hassio-adb-server-addon](https://github.com/jaaps/hassio-adb-server-addon)
 
 
 # Usage
@@ -19,6 +15,7 @@ In the addon configuration, simply list the IP addresses of your devices.  For e
   "devices": [
     "192.168.0.111",
     "192.168.0.222"
+  ]
 }
 ```
 
@@ -47,8 +44,3 @@ media_player:
     host: 192.168.0.222
     adb_server_ip: 127.0.0.1
 ```
-
-
-# Contributing
-
-Please do!  Please feel free to fork this addon and make fixes and improvements.  

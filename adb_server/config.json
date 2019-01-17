@@ -1,17 +1,15 @@
 {
   "name": "ADB Server",
-  "version": "0.1",
+  "version": "1.0",
   "slug": "adb_server",
   "description": "Setup an ADB server for use with the Fire TV and Android TV components.",
   "startup": "before",
   "boot": "auto",
+  "host_network": true,
   "options": {
     "devices": []
   },
   "schema": {
     "devices": ["str"]
-  },
-  "ports": {
-    "5037/tcp": 5037
   }
 }
