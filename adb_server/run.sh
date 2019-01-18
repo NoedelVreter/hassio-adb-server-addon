@@ -9,7 +9,9 @@ if [ -f /data/adbkey ]; then
   cp /data/adbkey /root/.android && cp /data/adbkey.pub /root/.android
 fi
 
-adb -a -P 5037 server nodaemon > /dev/null 2>&1 &
+while true; do
+  adb -a -P 5037 server nodaemon > /dev/null 2>&1
+done &
 
 echo "Server started. Waiting for 30 seconds..."
 sleep 30
