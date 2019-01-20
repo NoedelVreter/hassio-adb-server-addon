@@ -11,6 +11,7 @@ fi
 
 while true; do
   adb -a -P 5037 server nodaemon > /dev/null 2>&1
+  sleep 10
 done &
 
 echo "Server started. Waiting for 30 seconds..."
