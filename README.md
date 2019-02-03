@@ -1,3 +1,10 @@
+# WARNING: Discontinued.
+Use https://github.com/hassio-addons/addon-adb instead
+
+
+
+----
+
 
 # Installation
 
